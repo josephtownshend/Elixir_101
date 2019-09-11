@@ -27,8 +27,10 @@ If you have a variable on the left and a value on the right you can rebind the v
 You can also do this with lists
 
 [first, 2, last] = [1,2,3]
+
 first
 returns 1
+
 last
 returns 3
 

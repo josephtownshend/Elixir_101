@@ -1,6 +1,6 @@
 # Parse Request Line
 
-in iex we can use tab to auto complete functions - it will show you all the available functions for that. You can also add in `h String.` for example to get some extra help.
+in iex we can use tab to auto complete functions - it will show you all the available functions for that. You can also add in `h String.` for example to get some extra help. You could also try it with `h Map.` to get some help with the map function.
 
 = in Elixir is not an assignment rather a matcher
 
@@ -32,4 +32,4 @@ returns 1
 last
 returns 3
 
-The 2 is a literal value so it's just comparing this. so we can use this to compare but also extract values 
+The 2 is a literal value so it's just comparing this. so we can use this to compare but also extract values

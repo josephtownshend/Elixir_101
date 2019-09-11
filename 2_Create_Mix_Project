@@ -41,13 +41,20 @@ use iex which is Elixirs interactive shell - like erb in Ruby. This just runs th
 > c "lib/servy.ex"
 Hello, Elixir!
 ```
+c comiles and runs the file
 OR
 ```
 $ iex lib/servy.ex
 Hello, Elixir!
 ```
+using iex interprets the file - this option doesn't know about paths or dependencies.
 OR
 ```
 $ iex -S mix
 ```
 This option knows about the project - you can now use your modules and functions. Probably the most versatile option.
+
+```
+iex> r Servy
+```
+recompiles the given module so if you make any changes to the code you can run this and update your module on the go.

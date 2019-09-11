@@ -10,3 +10,16 @@ It has quite a familiar syntax to Ruby though coming from an OO background you d
 * In Elixir all data in immutable so you think more in terms of transforming data with functions.
 
 Throughout this course we will be building an HTTP web server which is a great way to learn Elixir.
+
+## Set Up
+Install Elixir
+```
+$ brew update
+$ brew install erlang
+$ brew install elixir
+```
+
+Verify Installation
+```
+$ elixir --version
+```
